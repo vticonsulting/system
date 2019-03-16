@@ -1,5 +1,5 @@
 {
-  "name": "@vticonsulting/frontend",
+  "name": "@vticonsulting/system",
   "private": true,
   "devDependencies": {
     "cz-lerna-changelog": "^2.0.2",
