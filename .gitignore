@@ -10,6 +10,7 @@ packages/slds
 packages/test
 packages/titan
 packages/tokens
+scripts
 dist
 temp
 .vuerc
