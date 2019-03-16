@@ -1,0 +1,91 @@
+{
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "editor.fontFamily": "Dank Mono, Operator Mono, Menlo, Monaco, Courier New, monospace",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 16,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.quickSuggestions": true,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.tabCompletion": "onlySnippets",
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "emmet.includeLanguages": {
+    "blade": "html",
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  // "eslint.validate": [
+  //   { "language": "javascript", "autoFix": true },
+  //   { "language": "javascriptreact", "autoFix": true },
+  //   { "language": "vue", "autoFix": true },
+  //   { "language": "vue-html", "autoFix": true },
+  //   { "language": "html", "autoFix": true }
+  // ],
+  "explorer.openEditors.visible": 0,
+  "explorer.decorations.badges": true,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.exclude": {
+    "**/*.log": true,
+    "**/*.log*": true,
+    "**/dist": true,
+    "**/coverage": true
+  },
+  "files.associations": {
+    ".markdownlintrc": "jsonc"
+  },
+  "git.ignoreLimitWarning": true,
+  "html.format.enable": false,
+  "html.format.preserveNewLines": true,
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "path-intellisense.mappings": {
+    // "@@": "${workspaceRoot}/resources",
+    "@": "${workspaceRoot}/resources/js",
+  },
+  "prettier.arrowParens": "avoid",
+  // "prettier.disableLanguages": [],
+  "prettier.eslintIntegration": false,
+  "prettier.requireConfig": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "es5",
+  "terminal.integrated.fontFamily": "'Inconsolata for Powerline'",
+  "terminal.integrated.fontSize": 18,
+  "vetur.completion.useScaffoldSnippets": false,
+  // "vetur.format.scriptInitialIndent": true,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+  "vetur.validation.template": false,
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Cobalt2",
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#fff",
+    "titleBar.activeBackground": "#692565",
+    "titleBar.inactiveBackground": "#69256588"
+  }
+}

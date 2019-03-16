@@ -1,0 +1,17 @@
+node_modules
+.DS_Store
+design
+*.log
+packages/cra
+packages/next
+packages/pkg-1
+packages/scratch
+packages/slds
+packages/test
+packages/titan
+packages/tokens
+dist
+temp
+.vuerc
+.version
+.versions
